@@ -59,5 +59,5 @@ const Trends = async () => {
     console.log(err)
   }
 }
-Trends()
+
 module.exports = Trends
