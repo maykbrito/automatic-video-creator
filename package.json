@@ -1,0 +1,19 @@
+{
+  "name": "automatic-video-creator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Mayk Brito",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.9",
+    "rss-parser": "^3.6.3",
+    "sbd": "^1.0.14",
+    "superagent": "^4.1.0",
+    "unidecode": "^0.1.8"
+  }
+}
