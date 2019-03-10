@@ -1,5 +1,5 @@
 const extractor = require('./extractor')
-const terms = require('./Terms')
+const terms = require('./terms')
 
 module.exports = async content => {
 
