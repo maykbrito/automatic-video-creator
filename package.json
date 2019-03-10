@@ -10,6 +10,8 @@
   "author": "Mayk Brito",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
     "readline-sync": "^1.4.9",
     "rss-parser": "^3.6.3",
     "sbd": "^1.0.14",
