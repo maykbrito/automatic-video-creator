@@ -14,6 +14,7 @@
     "cheerio": "^1.0.0-rc.2",
     "readline-sync": "^1.4.9",
     "sbd": "^1.0.14",
-    "unidecode": "^0.1.8"
+    "unidecode": "^0.1.8",
+    "watson-developer-cloud": "^3.18.2"
   }
 }
