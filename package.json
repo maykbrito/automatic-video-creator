@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^7.0.0",
     "readline-sync": "^1.4.9",
     "sbd": "^1.0.14",
     "unidecode": "^0.1.8",
