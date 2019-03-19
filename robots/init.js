@@ -25,7 +25,7 @@ const init = async () => {
     searchTerm: await askAndReturnSearchTerm(),
     prefix: askAndReturnPrefix(),
     sourceContent: {},
-    maxSentences: 7,
+    maxSentences: 1,
   };
 
   return content;
