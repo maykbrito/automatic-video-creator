@@ -2,7 +2,7 @@
 
 A video creator Bot inspired by @filipedeschamps video-maker Bot.
 
-## What it does?
+## What it does
 
 Making it simple:
 
@@ -14,4 +14,8 @@ Making it simple:
 
 ## Technologies envolved
 
-NodeJS - Wikipedi - IBM Watson - After Effects - YouTube
+NodeJS - Google Trends - IMDB - Wikipedia - IBM Watson Natural Language - Google Images Search - After Effects - YouTube
+
+## I'm learning and building things like
+
+Custom Google Trends Scrapper - IMDB Search Scrapper - Custom Wikipedia API - Custom Google Images Search (more comming soon)
