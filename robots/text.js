@@ -63,7 +63,8 @@ async function robot(content) {
   breakContentIntoSentences(content);
   limitMaxSentences(content);
   await fetchKeywordsOfAllSentences(content);
-  console.log('Build Sentences');
+  console.log('Builded Sentences');
+  return content;
 }
 
 module.exports = robot;

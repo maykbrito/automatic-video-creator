@@ -1,4 +1,5 @@
 /* eslint-disable global-require */
+const state = require('./robots/state');
 const init = require('./robots/init');
 
 const robots = {
@@ -18,7 +19,8 @@ const start = async () => {
     console.log('Error waiting for robots:\n\n ', err);
   }
 
-  console.log(JSON.stringify(content, null, 4));
+  state.save(content);
+  console.dir(state.load(), { depth: null });
 };
 
 start();
