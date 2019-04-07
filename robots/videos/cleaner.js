@@ -6,6 +6,7 @@ const compress = async videoFile =>
       '-i',
       `${videoFile}`,
       `${videoFile}.mp4`,
+      `-y`,
     ]);
 
     compressor.stdout.on('data', data => process.stdout.write(data));
