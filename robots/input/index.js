@@ -10,7 +10,7 @@ const input = async () => {
     searchTerm: await askAndReturnSearchTerm(),
     prefix: askAndReturnPrefix(),
     sourceContent: {},
-    maxSentences: 7,
+    maxSentences: 5,
   };
 
   await searchAndFetchWikipedia(content);
