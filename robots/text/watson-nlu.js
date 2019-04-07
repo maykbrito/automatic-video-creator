@@ -15,6 +15,7 @@ const fetchWatsonAndReturnKeywords = async sentence =>
         features: {
           keywords: {},
         },
+        language: 'pt',
       },
       (error, response) => {
         if (error) {
