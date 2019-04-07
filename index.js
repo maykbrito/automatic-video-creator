@@ -1,26 +1,18 @@
-/* eslint-disable global-require */
-const state = require('./robots/state');
-const init = require('./robots/init');
-
-const robots = {
-  text: require('./robots/text'),
-  wikipedia: require('./robots/wikipedia/wikipedia'),
-  images: require('./robots/images'),
-};
+const robots = require('./robots');
 
 const start = async () => {
-  const content = await init();
-
   try {
-    await robots.wikipedia(content);
+    await robots.input();
+    const content = robots.state.load();
     await robots.text(content);
+    robots.state.save(content);
     await robots.images(content);
+    robots.state.save(content);
+    await robots.video(content);
+    robots.state.save(content);
   } catch (err) {
     console.log('Error waiting for robots:\n\n ', err);
   }
-
-  state.save(content);
-  console.dir(state.load(), { depth: null });
 };
 
 start();
