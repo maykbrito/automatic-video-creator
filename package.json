@@ -10,7 +10,7 @@
   "author": "Mayk Brito",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "cheerio": "^1.0.0-rc.2",
     "dotenv": "^7.0.0",
     "gm": "^1.23.1",
