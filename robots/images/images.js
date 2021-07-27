@@ -11,8 +11,8 @@ const buildParams = (params = {}) =>
 
 const getImageSearchResults = (searchTerm, optionalParams = {}) => {
   const params = buildParams({
-    key: process.env.CUSTOM_SEARCH_API_KEY,
-    cx: process.env.CUSTOM_SEARCH_ID,
+    key: process.env.GCSI_API_KEY,
+    cx: process.env.GCSI_ID,
     q: encodeURIComponent(searchTerm),
     searchType: 'image',
     num: 5,
