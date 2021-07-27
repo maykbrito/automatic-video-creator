@@ -3,7 +3,7 @@ require('dotenv').config()
 let pexelsClient
 
 const searchImage = async (searchTerm, optionalParams) => {
-  let perPage = optionalParams.per_page || 10
+  let perPage = optionalParams.per_page || 5
   let page = optionalParams.page || 1
 
   try {
