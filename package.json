@@ -16,6 +16,7 @@
     "gm": "^1.23.1",
     "image-downloader": "^3.4.2",
     "isomorphic-fetch": "^3.0.0",
+    "pexels-api-wrapper": "^1.1.2",
     "readline-sync": "^1.4.9",
     "sbd": "^1.0.14",
     "unidecode": "^0.1.8",
