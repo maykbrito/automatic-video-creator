@@ -10,17 +10,17 @@
   "author": "Mayk Brito",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.2",
-    "dotenv": "^7.0.0",
+    "dotenv": "^10.0.0",
     "gm": "^1.23.1",
-    "image-downloader": "^3.4.2",
+    "image-downloader": "^4.0.3",
     "isomorphic-fetch": "^3.0.0",
     "pexels-api-wrapper": "^1.1.2",
     "readline-sync": "^1.4.9",
     "sbd": "^1.0.14",
     "unidecode": "^0.1.8",
     "unsplash-js": "^7.0.15",
-    "watson-developer-cloud": "^3.18.2"
+    "watson-developer-cloud": "^4.0.1"
   }
 }
