@@ -1,0 +1,13 @@
+https://legacy.imagemagick.org/Usage/text/
+
+# CAPTION
+
+convert -size 1920x1080 -gravity center -background transparent -fill white -kerning '-1' caption:"TE AJUDA A DIGITAR" other.png
+
+convert -size 1920x1080 -font './fonts/Nunito-Black.ttf' -gravity west -background transparent -fill white caption:"PAIR PROGRAMMING" pair.png
+
+# LABEL 
+
+convert -pointsize 148 -font './fonts/Nunito-Black.ttf' -background white -fill black label:"PRETO NO BRANCO" -kerning  "-1" white-black.png
+
+convert -pointsize 148 -font './fonts/Nunito-Black.ttf' -background black -fill white label:"BRANCO NO PRETO" -kerning  "-1" black-white.png
